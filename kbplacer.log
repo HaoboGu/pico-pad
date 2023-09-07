@@ -1,0 +1,227 @@
+[kbplacer_plugin_action.py:78]: Plugin executed with KiCad version: 7.0.1
+[kbplacer_plugin_action.py:79]: Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_dialog.py:392]: Language: en
+[kbplacer_plugin_action.py:95]: GUI state: {"switch_section": {"annotation": "SW{}", "layout_path": "/Users/haobogu/Downloads/keyboard-layout (3).json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}}]}, "misc_section": {"route_tracks": true, "template_path": ""}}
+[key_placer.py:68]: Set key 1U distance: 19050000/19050000
+[key_placer.py:282]: User layout: [['7\nHome', '8\n↑', '9\nPgUp'], ['4\n←', '5', '6\n→'], ['1\nEnd', '2\n↓', '3\nPgDn'], [{'w': 2}, '0\nIns', '.\nDel']]
+[key_placer.py:286]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>))
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:38]: Searching for D1 footprint
+[key_placer.py:266]: Detected template switch-to-diode path: []
+[board_modifier.py:38]: Searching for SW1 footprint
+[board_modifier.py:49]: Setting SW1 footprint position: (34525000, 34525000)
+[board_modifier.py:38]: Searching for D1 footprint
+[board_modifier.py:49]: Setting D1 footprint position: (39605000, 37555000)
+[board_modifier.py:38]: Searching for ST1 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D1 footprint
+[key_placer.py:126]: Routing SW1 with D1
+[key_placer.py:139]: switchPadPosition: (40367000, 29445000), diodePadPosition: (39605000, 36505000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 36505000), (40367000, 35743000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:129]: Track collide with pad SW1:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 9003af58-35a9-4d65-ad32-a106fa54b22a track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW2 footprint
+[board_modifier.py:49]: Setting SW2 footprint position: (53575000, 34525000)
+[board_modifier.py:38]: Searching for D2 footprint
+[board_modifier.py:49]: Setting D2 footprint position: (58655000, 37555000)
+[board_modifier.py:38]: Searching for ST2 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D2 footprint
+[key_placer.py:126]: Routing SW2 with D2
+[key_placer.py:139]: switchPadPosition: (59417000, 29445000), diodePadPosition: (58655000, 36505000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D2:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 36505000), (59417000, 35743000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW2:2
+[board_modifier.py:129]: Track collide with pad SW2:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of c4a53f3c-4571-4f4e-8105-af7c503f321e track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW3 footprint
+[board_modifier.py:49]: Setting SW3 footprint position: (72625000, 34525000)
+[board_modifier.py:38]: Searching for D3 footprint
+[board_modifier.py:49]: Setting D3 footprint position: (77705000, 37555000)
+[board_modifier.py:38]: Searching for ST3 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D3 footprint
+[key_placer.py:126]: Routing SW3 with D3
+[key_placer.py:139]: switchPadPosition: (78467000, 29445000), diodePadPosition: (77705000, 36505000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D3:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(77705000, 36505000), (78467000, 35743000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW3:2
+[board_modifier.py:129]: Track collide with pad SW3:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of f91ea34b-f597-40b3-84b5-dd18c42c3f64 track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW4 footprint
+[board_modifier.py:49]: Setting SW4 footprint position: (34525000, 53575000)
+[board_modifier.py:38]: Searching for D4 footprint
+[board_modifier.py:49]: Setting D4 footprint position: (39605000, 56605000)
+[board_modifier.py:38]: Searching for ST4 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D4 footprint
+[key_placer.py:126]: Routing SW4 with D4
+[key_placer.py:139]: switchPadPosition: (40367000, 48495000), diodePadPosition: (39605000, 55555000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D4:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 55555000), (40367000, 54793000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW4:2
+[board_modifier.py:129]: Track collide with pad SW4:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 3847f0da-0282-4987-a221-502ba4b7c3ac track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW5 footprint
+[board_modifier.py:49]: Setting SW5 footprint position: (53575000, 53575000)
+[board_modifier.py:38]: Searching for D5 footprint
+[board_modifier.py:49]: Setting D5 footprint position: (58655000, 56605000)
+[board_modifier.py:38]: Searching for ST5 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D5 footprint
+[key_placer.py:126]: Routing SW5 with D5
+[key_placer.py:139]: switchPadPosition: (59417000, 48495000), diodePadPosition: (58655000, 55555000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D5:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 55555000), (59417000, 54793000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW5:2
+[board_modifier.py:129]: Track collide with pad SW5:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 51937000-18ba-40f2-9362-62a04b8bfe37 track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW6 footprint
+[board_modifier.py:49]: Setting SW6 footprint position: (72625000, 53575000)
+[board_modifier.py:38]: Searching for D6 footprint
+[board_modifier.py:49]: Setting D6 footprint position: (77705000, 56605000)
+[board_modifier.py:38]: Searching for ST6 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D6 footprint
+[key_placer.py:126]: Routing SW6 with D6
+[key_placer.py:139]: switchPadPosition: (78467000, 48495000), diodePadPosition: (77705000, 55555000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D6:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(77705000, 55555000), (78467000, 54793000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW6:2
+[board_modifier.py:129]: Track collide with pad SW6:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 0ba729fa-e007-46c2-9b96-59392d73530c track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW7 footprint
+[board_modifier.py:49]: Setting SW7 footprint position: (34525000, 72625000)
+[board_modifier.py:38]: Searching for D7 footprint
+[board_modifier.py:49]: Setting D7 footprint position: (39605000, 75655000)
+[board_modifier.py:38]: Searching for ST7 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D7 footprint
+[key_placer.py:126]: Routing SW7 with D7
+[key_placer.py:139]: switchPadPosition: (40367000, 67545000), diodePadPosition: (39605000, 74605000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D7:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 74605000), (40367000, 73843000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW7:2
+[board_modifier.py:129]: Track collide with pad SW7:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 1f148e2f-491b-481a-ae52-2ddc2028c52c track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW8 footprint
+[board_modifier.py:49]: Setting SW8 footprint position: (53575000, 72625000)
+[board_modifier.py:38]: Searching for D8 footprint
+[board_modifier.py:49]: Setting D8 footprint position: (58655000, 75655000)
+[board_modifier.py:38]: Searching for ST8 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D8 footprint
+[key_placer.py:126]: Routing SW8 with D8
+[key_placer.py:139]: switchPadPosition: (59417000, 67545000), diodePadPosition: (58655000, 74605000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D8:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 74605000), (59417000, 73843000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW8:2
+[board_modifier.py:129]: Track collide with pad SW8:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 5d8bbbe1-ae42-4653-885e-56df9379a57a track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW9 footprint
+[board_modifier.py:49]: Setting SW9 footprint position: (72625000, 72625000)
+[board_modifier.py:38]: Searching for D9 footprint
+[board_modifier.py:49]: Setting D9 footprint position: (77705000, 75655000)
+[board_modifier.py:38]: Searching for ST9 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D9 footprint
+[key_placer.py:126]: Routing SW9 with D9
+[key_placer.py:139]: switchPadPosition: (78467000, 67545000), diodePadPosition: (77705000, 74605000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D9:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(77705000, 74605000), (78467000, 73843000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW9:2
+[board_modifier.py:129]: Track collide with pad SW9:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 190eaf00-e092-4c05-829c-19377a387975 track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW10 footprint
+[board_modifier.py:49]: Setting SW10 footprint position: (44050000, 91675000)
+[board_modifier.py:38]: Searching for D10 footprint
+[board_modifier.py:49]: Setting D10 footprint position: (49130000, 94705000)
+[board_modifier.py:38]: Searching for ST10 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D10 footprint
+[key_placer.py:126]: Routing SW10 with D10
+[key_placer.py:139]: switchPadPosition: (49892000, 86595000), diodePadPosition: (49130000, 93655000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D10:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(49130000, 93655000), (49892000, 92893000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW10:2
+[board_modifier.py:129]: Track collide with pad SW10:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 56071002-b077-4c6d-a684-b589be4c8c7e track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:38]: Searching for SW11 footprint
+[board_modifier.py:49]: Setting SW11 footprint position: (72625000, 91675000)
+[board_modifier.py:38]: Searching for D11 footprint
+[board_modifier.py:49]: Setting D11 footprint position: (77705000, 94705000)
+[board_modifier.py:38]: Searching for ST11 footprint
+[board_modifier.py:41]: Footprint not found
+[board_modifier.py:38]: Searching for D11 footprint
+[key_placer.py:126]: Routing SW11 with D11
+[key_placer.py:139]: switchPadPosition: (78467000, 86595000), diodePadPosition: (77705000, 93655000)
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D11:2
+[board_modifier.py:201]: Adding track segment (B.Cu): [(77705000, 93655000), (78467000, 92893000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW11:2
+[board_modifier.py:129]: Track collide with pad SW11:
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 83653cb8-6ae4-4fae-a077-14e5de8b6d86 track
+[board_modifier.py:207]: Could not add track segment due to detected collision
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW4:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW1:1
+[board_modifier.py:201]: Adding track segment (F.Cu): [(27440000, 31985000), (27440000, 51035000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW7:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW4:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 935dee22-45e0-46a0-892e-756a63dbe0e1 track
+[board_modifier.py:201]: Adding track segment (F.Cu): [(27440000, 51035000), (27440000, 70085000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW7:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 6e23086a-98db-414c-a485-a52649806fe2 track
+[board_modifier.py:201]: Adding track segment (F.Cu): [(27440000, 70085000), (27440000, 79610000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW10:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 7828ee05-82aa-43b7-8506-5953888477d8 track
+[board_modifier.py:201]: Adding track segment (F.Cu): [(27440000, 79610000), (36965000, 89135000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW5:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW2:1
+[board_modifier.py:201]: Adding track segment (F.Cu): [(46490000, 31985000), (46490000, 51035000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW8:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW5:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 5adc9c58-63a7-41c4-867e-085fb4b84490 track
+[board_modifier.py:201]: Adding track segment (F.Cu): [(46490000, 51035000), (46490000, 70085000)]
+[key_placer.py:397]: Switch pad to far to route 2 segment track with 45 degree angles
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW6:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW3:1
+[board_modifier.py:201]: Adding track segment (F.Cu): [(65540000, 31985000), (65540000, 51035000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW9:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad SW6:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of cfd89b05-9617-44c4-b62f-95855b244fdb track
+[board_modifier.py:201]: Adding track segment (F.Cu): [(65540000, 51035000), (65540000, 70085000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D2:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D1:1
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 38605000), (58655000, 38605000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D2:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of b82678de-3913-4869-9e04-bf9f60bc1991 track
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 38605000), (77705000, 38605000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 57655000), (58655000, 57655000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 0275c18c-93d9-479d-8bfb-1b565a36136b track
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 57655000), (77705000, 57655000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D7:1
+[board_modifier.py:201]: Adding track segment (B.Cu): [(39605000, 76705000), (58655000, 76705000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D9:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:150]: Track collision ignored, track starts or ends at the end of 6ad69b83-e345-4aed-90a6-ad91dd31fe1d track
+[board_modifier.py:201]: Adding track segment (B.Cu): [(58655000, 76705000), (77705000, 76705000)]
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D11:1
+[board_modifier.py:119]: Track collision ignored, track starts or ends in pad D10:1
+[board_modifier.py:201]: Adding track segment (B.Cu): [(49130000, 95755000), (77705000, 95755000)]

@@ -1,0 +1,6 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D10, D11, D2, D3, D4, D5, D6, D7, D8, D9",D_SOD-323,11,1N4148WS,
+"J1, J2",PinSocket_1x20_P2.54mm_Vertical,2,Conn_01x20_Pin,
+"J3, J4",PinSocket_1x10_P2.54mm_Vertical,2,Conn_01x10_Pin,
+"SW1, SW11, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9",SW_Hotswap_Kailh_MX_Plated_1.00u,10,SW_Push,
+SW10,SW_Hotswap_Kailh_MX_Plated_2.00u,1,SW_Push,
