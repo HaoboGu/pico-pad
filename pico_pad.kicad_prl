@@ -74,15 +74,15 @@
   "project": {
     "files": [
       {
-        "name": "pico_pad.kicad_pcb",
-        "open": false,
+        "name": "pico_pad.kicad_sch",
+        "open": true,
         "window": {
-          "display": 0,
+          "display": 1,
           "maximized": true,
-          "pos_x": 0,
-          "pos_y": 50,
+          "pos_x": -1728,
+          "pos_y": 173,
           "size_x": 1728,
-          "size_y": 1055
+          "size_y": 944
         }
       }
     ]
