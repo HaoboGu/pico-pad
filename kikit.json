@@ -1,0 +1,22 @@
+{
+    "tabs": {
+        "vwidth": "5mm",
+        "hwidth": "5mm",
+        "spacing": "25mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railstb",
+        "width": "3mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "1.5mm",
+        "text": "JLCJLCJLCJLC"
+    },
+    "post": {
+        "millradius": "0.5mm"
+    }
+}
